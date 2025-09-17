@@ -1,0 +1,283 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background-color: rgb(48, 48, 48);
+}
+
+header{
+    display: flex;
+    height: 60px;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+}
+
+    .head1{
+        display: flex;
+        height: 100%;
+        width: 216px;
+        background-color: black;
+        align-items: center;
+    }
+        .h1icon{
+            display: flex;
+            height: 32px;
+            width: 32px;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 20px;
+            margin-left: 18px;
+            margin-right: 14px;
+        }
+        .h1icon{
+            cursor: pointer;
+        }
+            .caja{
+                display: flex;
+                width: 16px;
+                height: 12px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: black;
+            }
+            .h1line{
+                display: flex;
+                height: 0.4px;
+                width: 16px;
+                background-color: white;
+            }
+            .h1logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .h1logo:hover{
+                cursor: pointer;
+            }
+    .head2{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 1300px;
+        background-color: black;
+        padding-left: 106px;
+    }   
+        .search{
+            display: flex;
+            height: 36px;
+            width: 436px;
+            align-items: center;
+            flex-direction: row;
+            background-color: rgb(58, 58, 58);
+            border-radius: 5px;
+            border-color: rgb(65, 63, 63);
+        }
+            .iconobuscar{
+                display: flex;
+                align-items: center;
+                padding-left: 20px;
+                padding-right: 16px;
+                width: 20px;
+                color: rgb(150, 150, 150);
+                height: 20px;
+            }
+            .inputbuscar{
+                width: 370px;
+                height: 30px;
+                border: 0px;
+                background-color: rgb(58, 58, 58);
+            }
+
+    .head3{
+        display: flex;
+        height: 100%;
+        width: 230px;
+        background-color: black;
+        align-items: center;
+    }
+        .h3icon1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 44px;
+            height: 26px;
+            width: 26px;
+            background-color: black;
+            border-radius: 20px;
+        }
+
+        .h3icon1:hover{
+            cursor: pointer;
+        }
+
+        .h3icon2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 26px;
+            width: 26px;
+            margin-left: 20px;
+            background-color: black;
+            border-radius: 20px;
+        }
+
+        .h3icon2:hover{
+            cursor: pointer;
+        }
+
+
+.contenedor{
+    display: flex;
+    padding-top: 61px;
+    width: 100%;
+    height: 767px;
+}
+    .menuizq{
+        display: flex;
+        background-color: black;
+        height: 100%;
+        width: 216px;
+        flex-direction: column;
+    }
+        .menu{
+            display: flex;
+            width: 100%;
+            height: 200px;
+            justify-content: center;
+        }
+            .cajas{
+                display: flex;
+                width: 200px;
+                height: 85%;
+                margin-top: 8px;
+                flex-direction: column;
+            }
+                .opcion{
+                    display: flex;
+                    border-radius: 5px;
+                    background-color: black;
+                    width: 100%;
+                    height: 25%;
+                    align-items: center;
+                    font-family: sans-serif;
+                    font-size: 15px;
+                }
+                .opcion:hover{
+                    background-color: rgb(61, 61, 61);
+                    cursor: pointer;
+                }
+                    .opcicon{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-left: 18px;
+                        padding-right: 19px;
+                        width: 20px;
+                        height: 20px;
+                    }
+        .playlists{
+            display: flex;
+            width: 100%;
+            height: 500px;
+            flex-direction: column;
+            align-items: center;
+        }
+            .cajaadd{
+                display: flex;
+                width: 100%;
+                height: 70px;
+                background-color: black;
+            }
+                .cajitaadd{
+                    display: flex;
+                    width: 100%;
+                    height: 70px;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .addboton{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 180px;
+                        height: 36px;
+                        flex-direction: row;
+                        background-color: rgb(37, 37, 37);
+                        color: white;
+                        border-color: black;
+                        border: 0px;
+                        border-radius: 15px;
+                        font-size: 13px;
+                        font-family: sans-serif;
+                    }
+                        .addicon{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding-right: 10px;
+                        }
+            .list{
+                display: flex;
+                width: 95%;
+                height: 50px;
+                background-color: black;
+                border-radius: 10px;
+                justify-content: center;
+                align-items: center;
+            }
+                .list:hover{
+                    cursor: pointer;
+                    background-color: rgb(73, 73, 73);
+                }
+
+                .list:hover .icono1{
+                    color: white;
+                }
+            
+            .izq{
+                display: flex;
+                height: 30px;
+                width: 85%;
+                flex-direction: column;
+                justify-content: center;
+            }
+                .nombre{
+                    margin-left: 15px;
+                    font-size: 13px;
+                    font-family: sans-serif;
+                }
+
+                .cr7{
+                    margin-left: 15px;
+                    margin-top: 4px;
+                    font-family: sans-serif;
+                    font-size: 11px;
+                    color: rgb(175, 175, 175);
+                }
+            .drc{
+                display: flex;
+                height: 30px;
+                width: 15%;
+                align-items: center;
+            }
+                .icono1{
+                    display: flex;
+                    width: 30px;
+                    height: 30px;
+                    color: black;
+                    align-items: center;
+                }
+
+    .menudrc{
+        display: flex;
+        background-color: black;
+        height: 100%;
+        width: 1529px;
+        margin-left: 1px;
+        flex-direction: column;
+}

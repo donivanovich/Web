@@ -1,0 +1,266 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #202124;
+    color: #ffffff;
+ }
+
+.encabezado-superior{
+    display: flex;
+    width: 1898px;
+    height: 48px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;  
+}
+
+    .encabezado-superior-izquierda{
+        display: flex;
+        height: 100%;
+        width: 10%;
+    }
+
+        .about-google{
+            display: flex;
+            justify-content: center;
+            margin: 0px 5px 0px 15px;
+            height: 100%;
+            width: 6cqmax;
+            color: #ffffff;
+        }
+
+        .store{
+            display: flex;
+            margin: 0px 5px;
+            height: 100%;
+            width: 40%;
+            color: #ffffff;
+        }
+
+    .encabezado-superior-derecha{
+        display: flex;
+        height: 100%;
+        width: 90%;
+    }
+
+        .encabezado-der-izq{
+            display: flex;
+            height: 100%;
+            width: 80%;
+        }
+
+        .encabezado-der-der{
+            display: flex;
+            height: 100%;
+            width: 20%;
+        }
+
+        .encabezado-der-der-izq{
+            display: flex;
+        }
+
+        .encabezado-der-der-der{
+            display: flex;
+            height: 100%;
+            width: 100%;
+        }
+
+        .encabezado-der-der-der-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 40%;
+        }
+
+            .mail{
+                font-size: 14px;
+                color: white;
+            }
+            
+            .images{
+                font-size: 14px;
+                padding-left: 15px;
+                color: white;
+            }
+
+        .encabezado-der-der-der-2{
+            display: flex;
+            justify-content: left;
+            margin-left: 25px;
+            align-items: center;
+            height: 100%;
+            width: 60%;
+        }
+
+            .apps{
+                font-size: 26px;
+                color: white;
+            }
+        
+
+            .signin{
+                background-color: #afd7e4;
+                border: none;
+                height: 40px;
+                width: 105px;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin-left: 25px;
+                font-size: 12px;
+                padding: 10px, 10px, 10px, 10px;
+                cursor: pointer;
+                border-color: none;
+                border-radius: 30px;
+                transition: background-color 0.3s ease;
+            }
+
+.contenedor-superior{
+    display: flex;
+    padding-right: 0px;
+    width: 100%;
+    height: 290px;
+    justify-content: center;
+    align-items: end;
+}
+
+.contenedor-centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 142px;
+    padding-top: 20px;
+    padding-right: 0px;
+}
+
+    .buscador{
+        display: flex;
+    }
+
+    .search-container {
+        width: 582px;
+        margin: 100px auto;
+    }
+
+        .search-input {
+            display: flex;
+            width: 582px;
+            height: 46px;
+            padding: 0 10px;
+            font-size: 16px;
+            border: 1px solid #5f6368;
+            border-radius: 25px;
+            box-sizing: border-box;
+            background-color: #303134;
+            color: white;
+        }
+
+
+    .contenedor3-abajo{
+        display: flex;
+        justify-content: center;
+        width: 582px;
+        height: 58px;
+        padding: 18px 0px 0px;
+    }
+
+        .buttons{
+            display: flex;
+            background-color: rgba(54, 53, 53, 0.411);
+            color: white;
+            font-size: 12.5px;
+            width: 153px;
+            height: 36px;
+            margin: 11px 4px;
+            padding: 0px 16px;
+            align-items: center;
+            justify-content: center;
+            display: inline-block;
+            cursor: pointer;
+            border-color: none;
+            border-radius: 5px;
+        }
+
+.contenedor-inferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding-right: 0px;
+    width: 100%;
+    height: 332px;
+}
+
+    .caja1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 24px;
+        width: 100%;
+        height: 28px;
+    }
+
+        .offer-by-google{
+            font-size: 14px;
+            color: white;
+        }
+        
+        .lenguages{
+            padding: 0px 3px;
+            font-size: 14px;
+            color: #99c3ff;
+        }
+
+.letraAbajo1{
+    font-size: 14px;
+    color: white;
+    margin: 0px;
+}
+
+.pie-de-fondo-superior{
+    display: flex;
+    margin: 0px;
+    height: 18px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(71, 71, 71);
+    background-color: #161618;
+}
+
+    .spain{
+        font-size: 18px;
+        color: white;
+        margin: 0px;
+    }
+
+.pie-de-fondo-inferior{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    height: 44px;
+    padding-left: 20px;
+    background-color: #161618;
+}
+
+    .conditions{
+        font-size: 18px;
+        color: white;
+        margin: 0px;
+    }
+
+.imagengoogle{
+    width: 272px;
+    height: 92px;
+}
+
+.txtPT { font-family: PTSans; }
+
+@font-face {
+    font-family: PTSans;
+    src: url(../fonts/PTSans-Regular.ttf);
+}

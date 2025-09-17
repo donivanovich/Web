@@ -1,0 +1,50 @@
+@import url();
+
+*{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #068fff;
+}
+
+.fondo{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: #eeeeee;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: .5s ease-in-out;
+}
+
+.fondo:hover{
+    width: 550px;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    color: #068fff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+i{
+    font-size: 22px;
+    color: #068fff;
+    cursor: pointer;
+}

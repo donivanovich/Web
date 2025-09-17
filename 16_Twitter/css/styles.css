@@ -1,0 +1,141 @@
+body{
+    display: flex;
+    margin: 0px;
+    background-color: black;
+}
+
+.hr1{
+    margin: 0%;
+    border-color: rgb(58, 58, 58);
+    padding-left: 645px;
+}
+
+.hr2{
+    margin: 0%;
+    border-color: rgb(58, 58, 58);
+}
+
+.botonpostear{
+    border: 0px;
+    border-radius: 50px;
+    height: 52px;
+    width: 234px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.nombre{
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.arroba{
+    margin: 0px;
+    margin-left: 10px;
+    color: gray;
+}
+
+.botonesfeed1{
+    display: flex;
+    border: 0px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.botonesfeed2{
+    border: 0px;
+    background-color: black;
+    color: gray;
+    cursor: pointer;
+}
+
+.bordeparati{
+    background-color: #1d9bf0;
+    height: 4px;
+    width: 56px;
+    border-radius: 100px;
+}
+
+.botoncualquierpersona{
+    display: flex;
+    background-color: black;
+    border: 0px;
+    color: #1d9bf0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mundo{
+    width: 16px;
+    height: 16px;
+}
+
+.botonpostearmini{
+    background-color: rgb(109, 109, 109);
+    color: black;
+    border: 0px;
+    margin: 0px;
+    border-radius: 100px;
+    height: 34px;
+    width: 74px;
+}
+
+.alineador{
+    height: 80px;
+}
+
+.buscar{
+    height: 42px;
+    width: 305px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: rgb(43, 42, 42);
+    border: 0px;
+    border-color: #1d9bf0;
+    color: rgb(116, 115, 115);
+}
+.iconobuscar{
+    display: flex;
+    background-color: rgb(43, 42, 42);
+    height: 44px;
+    width: 40px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.superposicionbuscar{
+    display: flex;
+    background-color: black;
+    height: 53px;
+    width: 690px;
+    position: fixed;
+}
+.botonsuscribirse{
+    background-color: #1d9bf0;
+    color: white;
+    border-radius: 100px;
+    border: 0px;
+    height: 36px;
+    width: 115px;
+}
+
+.botonseguir{
+    border: 0px;
+    border-radius: 100px;
+    height: 30px;
+    width: 75px;
+    cursor: pointer;
+}
+
+.botonmostrarmas{
+    color: #1d9bf0;
+    background-color: black;
+    border: 0px;
+}

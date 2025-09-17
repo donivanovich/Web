@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action="" method="GET">
+            <label for="inputUser">Usuario:</label>
+            <input type="text" value="admin" name="user" id="inputUser" minlength="5" maxlength="7" autocomplete="off" required>
+            <br>
+            <label for="inputPassword">Contraseña:</label>
+            <input type="password" value="1234" name="passw" id="inputPassword" required>
+            <br>
+            <label for="inputEmail">Email:</label>
+            <input type="email" value="admin@gmail.com" name="mail" id="inputEmail" required>
+            <br>
+            <label for="inputNota">Nota:</label>
+            <input type="number" step="0.01" value="5" name="nota" id="inputNota" min="0" max="10" required>
+            <br>
+            <label for="inputBirth">Fecha de nacimiento:</label>
+            <input type="datetime-local" value="2003-05-12T18:38" name="birth" id="inputBirth">
+            <br>
+            <input type="checkbox" id="tos" required checked>
+            <label for="tos">Acepto donar todos mis órganos en vida</label>
+            <br>
+            <label for="radioH">H</label>
+            <input type="radio" id="radioH" name="gender" value="h" checked required>
+            <br>
+            <label for="radioM">M</label>
+            <input type="radio" id="radioM" name="gender" value="m">
+            <br>
+            <label for="radioO">Otre</label>
+            <input type="radio" id="radioO" name="gender" value="o">
+            <br>
+            <textarea name="description" placeholder="Escribe tu reseña"></textarea>
+            <br>
+            <select name="marca">
+                <option value="ferrari">Ferrari</option>
+                <option value="honda">Honda</option>
+                <option value="aston" selected>Aston Martin</option>
+            </select>
+            <br>
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Entrar">
+        </form>
+    </body>
+</html>

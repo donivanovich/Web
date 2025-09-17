@@ -1,0 +1,870 @@
+body{
+    margin: 0px;
+}
+
+.imagenes{
+    border-radius: 15px;
+}
+.cabezero{
+    position: fixed;
+    width: 100%;
+}
+.cabezero1{
+    display: flex;
+    height: 32px;
+    width: 100%;
+    background-color: #045694;
+    align-items: center;
+    justify-content: end;
+    color: white;
+}
+    .divboton1c1{
+        padding: 10px;
+    }
+        .boton1c1{
+            color: white;
+            background-color: #045694;
+            border: 0px;
+            cursor: pointer;
+        }
+    .divboton2c1{
+        padding: 10px;
+    }
+        .boton2c1{
+            color: white;           
+            background-color: #045694;
+            border: 0px;
+            cursor: pointer;
+        }
+    .divboton3c1{
+        padding: 10px;
+    }
+        .boton3c1{
+            color: white;
+            background-color: #045694;
+            border: 0px;
+            cursor: pointer;
+        }
+    .divboton4c1{
+        padding: 10px;
+    }
+        .boton4c1{
+            color: white;
+            background-color: #045694;
+            border: 0px;
+            cursor: pointer;
+        }
+    .divboton5c1{
+        padding: 10px;
+    }
+        .boton5c1{
+            color: white;      
+            background-color: #045694;
+            border: 0px;
+            cursor: pointer;
+        }
+.linea{
+    margin: 0px;
+    background-color: white;
+}
+.cabezero2{
+    display: flex;
+    height: 64px;
+    width: 100%;
+    background-color: #045694;
+    align-items: center;
+}
+    .cabezero2izq{
+        display: flex;
+        height: 64px;
+        width: 75%;
+        background-color: #045694;
+        align-items: center;
+        justify-content: start;
+    }
+        .menu{
+            display: flex;
+            padding-left: 20px;
+            background-color: #045694;
+            color: white;
+            cursor: pointer;
+        }
+        .imgfifa{
+            display: flex;
+            padding: 20px;
+            height: 32px;
+            cursor: pointer;
+        }
+        .divboton1c2{
+            padding-right: 15px;
+        }
+            .boton1c2{
+                color: white;
+                background-color: #045694;
+                border: 0px;
+                cursor: pointer;
+                
+            }
+        .divboton2c2{
+            padding-right: 15px;
+        }
+            .boton2c2{
+                color: white;
+                background-color: #045694;
+                border: 0px;
+                cursor: pointer;
+            }           
+        .divboton3c2{
+            padding-right: 15px;
+        }
+            .boton3c2{
+                color: white;
+                background-color: #045694;
+                border: 0px;
+                cursor: pointer;
+            }          
+        .divboton4c2{
+            padding-right: 15px;
+        }
+            .boton4c2{
+                color: white;
+                background-color: #045694;
+                border: 0px;
+                cursor: pointer;
+            }          
+        .divboton5c2{
+            padding-right: 15px;
+        }
+            .boton5c2{
+                color: white;
+                background-color: #045694;
+                border: 0px;
+                cursor: pointer;
+            }            
+        .divboton6c2{
+            padding-right: 15px;
+        }
+            .boton6c2{
+                color: white;
+                background-color: #045694;
+                border: 0px;
+                cursor: pointer;
+            }            
+        .divboton7c2{
+            padding-right: 15px;
+        }
+            .boton7c2{
+                color: white;
+                background-color: #045694;
+                border: 0px;
+                cursor: pointer;
+            }            
+        .divboton8c2{
+            padding-right: 15px;
+        }
+            .boton8c2{
+                color: white;
+                background-color: #045694;
+                border: 0px;
+                cursor: pointer;
+            }       
+    .cabezero2drc{
+        display: flex;
+        height: 64px;
+        width: 25%;
+        background-color: #045694;
+        align-items: center;
+        justify-content: end;
+    }
+        .lupa{
+            display: flex;
+            color: white;
+            padding: 10px;
+        }
+        .mundo{
+            display: flex;
+            color: white;
+            padding: 10px;
+        }
+        .cuenta{
+            display: flex;
+            color: white;
+            padding: 10px;
+        }
+.thebest{
+    display: flex;
+    width: 100%;
+    height: 750px;
+    justify-content: auto;
+}
+    .thebestizq{
+        display: flex;
+        width: 25%;
+        background-color: aqua;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        flex-direction: column;
+        
+    }
+        .votarahora{
+            display: flex;
+            color: white;
+        }
+        .texto{
+            display: flex;
+            color: white;
+        }
+        .divbotonvotarahora{
+            
+        }
+            .botonvotarahora{
+                color: white;
+                background-color: #0a84ff;
+                cursor: pointer;
+                border: 0px;
+                width: 210px;
+                height: 42px;
+                border-radius: 25px;
+            }
+    .thebestdrc{
+        display: flex;
+        width: 75%;
+        height: 100%;
+        background-color: aliceblue;
+        align-items: end;
+        justify-content: start;
+        cursor: pointer;
+    }
+        .textothebestdrc{
+            padding: 35px;
+            color: white;
+            width: 959px;
+        }
+.menudeslizante{
+    display: flex;
+    width: 100%;
+    height: 460px;
+    background-color: aliceblue;
+    flex-direction: column;
+    padding: 0px;
+}
+    .divmenudeslizantetop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+        .menudeslizantetext{
+            padding-left: 80px;
+        }
+        .divmostrartodo2{
+            padding-right: 98px;
+        }
+            .botonmostrartodo2{
+                color: #0a84ff;
+                border: 0px;
+                background-color: aliceblue;
+            }
+    .votaciones{
+        display: flex;
+        height: 306px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+        .votacion1{
+            display: flex;
+            width: 436px;
+            height: 277px;
+            flex-direction: column;
+        }
+            .votimg1{
+                width: 412px;
+                height: 232px;
+            }
+            .vottext1{
+                width: 412px;
+                height: 18px;
+            }
+
+        .votacion2{
+            display: flex;
+            width: 436px;
+            height: 277px;
+            flex-direction: column;
+        }
+            .votimg2{
+                width: 412px;
+                height: 232px;
+            }
+            .vottext2{
+                width: 412px;
+                height: auto;
+            }
+
+        .votacion3{
+            display: flex;
+            width: 436px;
+            height: 277px;
+            flex-direction: column;
+        }
+            .votimg3{
+                width: 412px;
+                height: 232px;
+            }
+            .vottext3{
+                width: 412px;
+                height: auto;
+            }
+
+        .votacion4{
+            display: flex;
+            width: 436px;
+            height: 277px;
+            flex-direction: column;
+        }
+            .votimg4{
+                width: 412px;
+                height: 232px;
+            }
+            .vottext4{
+                width: 412px;
+                height: auto;
+            }
+    .noticias{
+        display: flex;
+        padding-top: 32px;
+        width: 100%;
+        height: 817px;
+        flex-direction: column;
+        background-color: aliceblue;
+    }
+        .divnoticiastop{
+            display: flex;
+            height: 55px;
+            align-items: center;
+            align-items: start;
+            padding-bottom: 15px;
+        }
+            .divtextonoticias{
+                padding-left: 80px;
+                height: 55px;
+                width: 55%;
+            }
+
+            .divmostrartodo{
+                display: flex;
+                height: 55px;
+                width: 40%;
+                align-items: center;
+                justify-content: end;
+                padding-right: 78px;
+            }
+                .botonmostrartodo{
+                    width: 127px;
+                    height: 26px;
+                    color: #0a84ff;
+                    border: 0px;
+                    background-color: aliceblue;
+                }
+        .divnoticias{
+            display: flex;
+            width: 100%;
+            height: 700px;
+        }
+            .divnoticiasizq{
+                display: flex;
+                padding-left: 80px;
+                padding-right: 12px;
+                height: 700px;
+                width: 860px;
+            }
+                .textonoticiaizq{
+                    display: flex;
+                    width: 860px;
+                    flex-direction: column;
+                }
+                    .textonoticiaizqtop{
+                        display: flex;
+                        width: 860px;
+                        height: 103px;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                        .textotextonoticiaizqtop{
+                            display: flex;
+                        }
+                        .compartir{
+                            display: flex;
+                            padding-right: 10px;
+                            color: #0a84ff;
+                        }
+                    .textonoticiaizqbottom{
+                        width: 860px;
+                        height: 58px;
+                        color: gray;
+                    }
+        .divnoticiasdrc{
+            display: flex;
+            padding-left: 12px;
+            height: 700px;
+            width: 856px;    
+        }   
+            .caja1{
+                display: flex;
+                width: 418px;
+                padding-right: 10px;
+            }
+                .noticiadrc1{
+                    
+                }
+                    .drch1img{
+                        display: flex;
+                        width: 418px;
+                        height: 235px;
+                    }
+                    .conte1{
+                        display: flex;
+                        width: 418px;
+                        justify-content: space-between;
+                    }
+                        .drch1text{
+                            width: 75%;
+                            height: 115px;
+                            align-items: start;
+                        }
+                        .compartir1{
+                            padding-top: 20px;
+                            padding-right: 10px;
+                            width: 18px;
+                            color: #0a84ff;
+                        }
+            .caja2{
+                display: flex;
+                width: 418px;
+                
+            }
+                .noticiadrc2{
+                    
+                }
+                    .drch2img{
+                        display: flex;
+                        width: 418px;
+                        height: 235px;
+                    }
+                    .conte2{
+                        display: flex;
+                        width: 418px;
+                        justify-content: space-between;
+                    }
+                        .drch2text{
+                            width: 75%;
+                        }
+                        .compartir2{
+                            padding-top: 20px;
+                            padding-right: 10px;
+                            width: 18px;
+                            color: #0a84ff;
+                        }
+            .caja3{
+                padding-left: 10px;
+                display: flex;
+                width: 418px;
+            }
+                .noticiadrc3{
+                        
+                }
+                    .drch3img{
+                        display: flex;
+                        width: 418px;
+                        height: 235px;
+                    }
+                    .conte3{
+                        display: flex;
+                        width: 418px;
+                        justify-content: space-between;
+                    }
+                        .drch3text{
+                            width: 75%;
+                            height: 115px;
+                        }
+                        .compartir3{
+                            padding-top: 20px;
+                            padding-right: 10px;
+                            width: 18px;
+                            color: #0a84ff;
+                        }
+
+            .caja4{
+                display: flex;
+                width: 418px;
+                padding-left: 10px;
+            }
+                .noticiadrc4{
+                }
+                    .drch4img{
+                        display: flex;
+                        width: 418px;
+                        height: 235px;
+                    }
+                    .conte4{
+                        display: flex;
+                        width: 418px;
+                        justify-content: space-between;
+                    }
+                        .drch4text{
+                            width: 75%;
+                        }
+                        .compartir4{
+                            padding-top: 20px;
+                            padding-right: 10px;
+                            width: 18px;
+                            color: #0a84ff;
+                        }
+    .fondofifastore{
+        width: 100%;
+        height: 816px;
+        background-color: aliceblue;
+    }
+    .menudeslizante2{
+        display: flex;
+        width: 100%;
+        height: 460px;
+        background-color: white;
+        flex-direction: column;
+        padding: 0px;
+        background-color: aliceblue;
+    }
+        .divmenudeslizantetop2{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 40px;
+        }
+            .menudeslizantetext2{
+                padding-left: 80px;
+            }
+            .divmostrartodo22{
+                padding-right: 98px;
+            }
+                .botonmostrartodo22{
+                    color: #0a84ff;
+                    border: 0px;
+                    background-color: aliceblue;
+                }
+        .votaciones2{
+            display: flex;
+            height: 368px;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+            .votacion12{
+                display: flex;
+                width: 290px;
+                height: 369px;
+                flex-direction: column;
+            }
+                .votimg12{
+                    width: 267px;
+                    height: 267px;
+                }
+                .vottext12{
+                    width: 267px;
+                    height: 18px;
+                }
+    
+            .votacion22{
+                display: flex;
+                width: 290px;
+                height: 369px;
+                flex-direction: column;
+            }
+                .votimg22{
+                    width: 267px;
+                    height: 267px;
+                }
+                .vottext22{
+                    width: 267px;
+                    height: auto;
+                }
+    
+            .votacion32{
+                display: flex;
+                width: 290px;
+                height: 369px;
+                flex-direction: column;
+            }
+                .votimg32{
+                    width: 267px;
+                    height: 267px;
+                }
+                .vottext32{
+                    width: 267px;
+                    height: auto;
+                }
+    
+            .votacion42{
+                display: flex;
+                width: 290px;
+                height: 369px;
+                flex-direction: column;
+            }
+                .votimg42{
+                    width: 267px;
+                    height: 267px;
+                }
+                .vottext42{
+                    width: 267px;
+                    height: auto;
+                }
+            .votacion52{
+                display: flex;
+                width: 290px;
+                height: 369px;
+                flex-direction: column;
+            }
+                .votimg52{
+                    width: 267px;
+                    height: 267px;
+                }
+                .vottext52{
+                    width: 267px;
+                    height: auto;
+                }
+            .votacion62{
+                display: flex;
+                width: 290px;
+                height: 369px;
+                flex-direction: column;
+            }
+                .votimg62{
+                    width: 267px;
+                    height: 267px;
+                }
+                .vottext62{
+                    width: 267px;
+                    height: auto;
+                }
+    .goalscorer{
+        display: flex;
+        padding-left: 80px;
+        background-color: aliceblue;
+        height: 387px;
+        align-items: center;
+    }
+    .fifaplus{
+        display: flex;
+        height: 816px;
+        width: 1903px;
+        align-items: center;
+        background-color: aliceblue;
+    }
+        .fondo{
+            display: flex;
+            height: 815px;
+            width: 1903px;
+        }
+    .reels{
+        display: flex;
+        width: 100%;
+        height: 870px;
+        background-color: aliceblue;
+        flex-direction: column;
+        padding: 0px;
+    }
+        .reelstop{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 40px;
+        }
+            .reelstext{
+                padding-left: 80px;
+            }
+        .divreels{
+            display: flex;
+            height: 695px;
+            width: calc(100%-80px);
+            padding-left: 80px;
+            background-color: aliceblue;
+        }
+        .imgreel{
+            width: 414px;
+            height: 710px;
+            border-radius: 10px;
+        }
+            .reel{
+                padding-right: 25px;
+                display: flex;
+                width: 414px;
+                height: 695px;
+                flex-direction: column;
+            }
+    .dofifa{
+        height: 650px;
+        width: 1903px;
+        background-color: aliceblue;
+    }
+        .sizedofifaimg{
+            width: 265px;
+            height: 420px;
+            border-radius: 10px;
+        }
+
+        .divdofifatop{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 40px; 
+        }
+            .dofifatext{
+                padding-left: 80px;
+            }
+
+        .cajasdofifa{
+            display: flex;
+            height: 488px;
+            width: 1823px;
+            padding-left: 80px;
+        }
+            .cajadofifa{
+                display: flex;
+                width: 290px;
+                height: 522px;
+                flex-direction: column;
+            }
+            .cajadofifaimg{
+
+            }
+            .cajadofifatext{
+
+            }
+    .aniversario{
+        width: 1903px;
+        height: 842px;
+    }
+        .sizeimganiversario{
+            width: 1903px;
+            height: 842px;
+        }
+    .fifasound{
+        width: 1903px;
+        height: 842px;
+    }
+        .sizeimgfifasound{
+            width: 1903px;
+            height: 842px;
+        }
+    .footer{
+        width: 100%;
+        height: 352px;
+        background-color: #045694;
+    }
+        .hr{
+            background-color: #045694;
+            margin: 0px;
+            padding: 0px;
+        }
+        .footer1{
+            display: flex;
+            width: 100%;
+            height: 56px;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+            .f1caja1{
+                display: flex;
+                height: 28px;
+                width: 266px;
+                align-items: center;
+            }   
+                .logofifamini{
+                    padding-left: 12px;
+                    height: 24px;
+                    width: 73px;
+                }
+            .f1caja2{
+                display: flex;
+                height: 31px;
+                width: 400px;
+                align-items: center;
+                justify-content: space-between;
+                padding-right: 50px;
+            }
+            .f1caja3{
+                height: 20px;
+                width: 532px;
+            }
+                .f3caja1{
+                    display: flex;
+                    color: white;
+                    justify-content: end;
+                }
+                    .h4{
+                        margin: 0px;
+                    }
+            .f1caja4{
+                display: flex;
+                height: 40px;
+                width: 375px;
+                justify-content: end;
+                align-items: center;
+
+            }
+        .footer2{
+            display: flex;
+            height: 196px;
+            color: white;
+            flex-direction: column;
+            align-items: center;
+        }
+            .fila1{
+                height: 44px;
+            }
+            .fila2{
+                display: flex;
+            }
+                .logos{
+                    display: flex;
+                    width: 188px;
+                    height: 54px;
+                    justify-content: center;
+                }
+            .fila3{
+            }
+            .fila4{
+                display: flex;
+                height: 34px;
+            }
+                .logitos{
+                    display: flex;
+                    width: 188px;
+                    height: 34px;
+                    justify-content: center;
+                }
+        .footer3{
+            display: flex;
+            height: 96px;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-between;
+        }   
+            .f3caja1{
+                color: white;
+                padding-left: 80px;
+            }
+                .botonesf3{
+                    background-color: #045694;
+                    color: white;
+                    border: 0px;
+                    cursor: pointer;
+                    padding-left: 15px;
+                }
+            .f3caja2{
+                color: white;
+                padding-right: 80px;
+            }

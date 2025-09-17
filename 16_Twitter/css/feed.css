@@ -1,0 +1,107 @@
+.feed{
+    display: flex;
+    width: 600px;
+    height: 100vh;
+    background-color: black;
+    padding-left: 597px;
+}
+    .publico{
+        display: flex;
+        width: 600px;
+        height: 53px;
+        flex-direction: row;
+        position: fixed;
+        color: white;
+        background-color: black;
+        margin-bottom: 1px;
+        border-color: #1d9bf0;
+    }
+        .parati{
+            display: flex;
+            height: 49px;
+            width: 300px;
+            justify-content: end;
+            flex-direction: column;
+            align-items: center;
+        }
+            .textparati{
+                padding-bottom: 10px;
+            }
+        .siguiendo{
+            display: flex;
+            height: 53px;
+            width: 300px;
+            justify-content: center;
+        }
+    .contenido{
+        display: flex;
+        padding-top: 54px;
+        height: 1100px;
+        width: 600px;
+        color: white;
+        flex-direction: column;
+    }
+        .queestapasando{
+            display: flex;
+            height: 200px;
+            width: 600px;
+            flex-direction: column;
+        }
+            .queestapasandotext{
+                display: flex;
+                width: 600px;
+                height: 72px;
+                padding-top: 16px;
+            }
+                .cajafotoperfil{
+                    width: 40px;
+                    padding-left: 16px;
+                }
+                .queestapasandoinput{
+                    background-color: black;
+                    color: gray;
+                    border: 0px;
+                    height: 28px;
+                    width: 450px;
+                    border-color: black;
+                    margin: 0px;
+                    padding-bottom: 10px;
+                    padding-top: 4px;
+                    padding-left: 10px;
+                }
+            .queestapasandoicons{
+                display: flex;
+                width: 530px;
+                height: 44px;
+                padding-left: 56px;
+                justify-content: center;
+                align-items: end;
+                justify-content: space-between;
+            }
+                .separador{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .iconosqueestapasando{
+                    display: flex;
+                    width: 30px;
+                    height: 30px;
+                    padding-left: 5px;
+                    justify-content: center;
+                    align-items: center;
+                }
+            .queestapasandoposts{
+                display: flex;
+                height: 48px;
+                width: 600px;
+                justify-content: center;
+                padding-top: 15px;
+                align-items: center;
+                flex-direction: row;
+            }
+                .mostrarposts{
+                    color: #1d9bf0;
+                    cursor: pointer;
+                    background-color: black;
+                    border: 0px;
+                }

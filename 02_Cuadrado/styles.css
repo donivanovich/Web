@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+
+}
+
+    .cuadradoPricipal{
+        display: flex;
+        flex-direction: column;
+    }
+        .cuadradoRojo{
+            background-color: red;
+            display: flex;
+            width: 50px;
+            height: 50px;
+        }
+
+        .cuadradoVerde{
+            background-color: green;
+            display: flex;
+            width: 50px;
+            height: 50px;
+        }
+
+        .cuadradoAzul{
+            background-color: blue;
+            display: flex;
+            width: 50px;
+            height: 50px;
+        }
+
+    .cuadradoGris{
+        width: 100px;
+        height: 150px;
+        background-color: gray;
+    }

@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+    .contenedor{
+        flex-direction: column;
+        display: flex;
+        height: 911px;
+        width: 240px;
+    }
+        .buscar{
+            display: flex;
+            background-color: rgb(44, 40, 40);
+            height: 40px;
+            width: 200px;
+            margin-left: 20px;
+            border-radius: 25px;
+            align-items: center;
+        }
+            .txt{
+                color: rgb(94, 94, 94);
+                margin-left: 10px;
+            }
+            .icn{
+                margin-left: 10px;
+                margin-top: 4px;
+            }
+    
+    .opc{
+        display: flex;
+        height: 36px;
+        width: 200px;
+        margin-left: 15px;
+        margin-top: 10px;
+        align-items: center;
+    }
+        .head{
+            display: flex;
+            margin-left: 45px;
+        }

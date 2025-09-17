@@ -1,0 +1,353 @@
+body{
+    margin: 0px;
+    background-color: blanchedalmond;
+}
+
+.cabezero{
+    display: flex;
+    height: 105px;
+    width: 100%;
+    flex-direction: column;
+    position: fixed;
+}
+.hr{
+    margin: 0px;
+    border-color: gray;
+}
+.csuperior{
+    display: flex;
+    height: 35px;
+    width: 100%;
+    background-color: rebeccapurple;
+    align-items: center;
+    justify-content: space-between;
+}
+    .divlogo{
+        height: 20px;
+        width: 60px;
+        padding-left: 15px;
+    }
+        .logo{
+            height: 20px;
+            width: 60px;
+            cursor: pointer;
+        }
+    .botonescsuperior{
+        display: flex;
+        align-items: center;
+    }
+        .boton1cs{
+            height: 20px;
+            width: auto;
+            padding-right: 7px;
+        }
+            .botoncs{
+                background-color: rebeccapurple;
+                color: white;
+                border: 0px;
+                cursor: pointer;
+            }
+            .botoncs:hover{
+                color: yellow;
+            }
+.cinferior{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: rebeccapurple;
+    align-items: center;
+    justify-content: space-between;
+}
+    .cinferiorizq{
+        display: flex;
+        padding-left: 15px;
+        align-items: center;
+    }
+        .botonmenu{
+            display: flex;
+            height: 25px;
+            width: 25px;
+            background-color: cadetblue;
+            border-radius: 100px;
+            cursor: pointer;
+        }
+        .logomundial{
+            display: flex;
+            padding-left: 10px;
+            width: 120px;
+            height: 55px;
+            cursor: pointer;
+        }
+            .logo2{
+                width: 120px;
+                height: 55px;
+            }
+        .botonesci{
+            display: flex;
+            align-items: center;
+            width: auto;
+            height: 40px;
+            padding-left: 10px;
+        }
+            .boton2{
+                background-color: rebeccapurple;
+                color: white;
+                border: 0px;
+                cursor: pointer;
+            }
+                .boton2:hover{
+                    color: yellow;
+                }
+    .cinferiordrc{
+        display: flex;
+        padding-right: 15px;
+    }
+        .iconos{
+            display: flex;
+            align-items: center;
+            padding-right: 10px;
+        }
+.primero{
+    padding-top: 105px;
+    display: flex;
+    flex-direction: row; 
+    height: 700px;
+    width: 100%;
+}
+    .primeroizq{
+        display: flex;
+        width: 25%;
+        height: 750px;
+        background-color: rebeccapurple;
+        align-items: center;
+        justify-content: center;
+    }
+        .cajaprimeroizq{
+            display: flex;
+            width: 400px;
+            height: 600px;
+            background-color: rebeccapurple;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+            .cajita1primeroizq{
+               display: flex; 
+               align-items: center;
+               width: 400px;
+               height: 180px;
+               justify-content: center;
+            }
+                .reloj{
+                    width: 150px;
+                    height: 180px;
+                }
+            .cajita2primeroizq{
+                display: flex; 
+                width: 400px;
+                height: 100px;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .cajita3primeroizq{
+                display: flex;
+                flex-direction: column;
+                height: 350px;
+                width: 400px;
+                justify-content: space-between;
+            }
+                .resultado{
+                    display: flex;
+                    background-color: white;
+                    height: 130px;
+                    width: 380px;
+                    border-radius: 10px;
+                    cursor: pointer;                   
+                    flex-direction: column;
+                    padding: 10px;
+                }
+                    .resultadotop{
+                        display: flex;
+                        width: 380px;
+                        height: 50px;
+                        flex-direction: column;
+                    }
+                        .partido{
+                            width: 380px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            height: 100px;
+                        }
+                            .gris{
+                                color: gray;
+                                margin: 0px;
+                            }
+                        .estadio{
+                            display: flex;
+                            width: 380px;
+                            height: 100px;
+                        }
+                    .resultadobot{
+                        display: flex;
+                        width: 380px;
+                        height: 80px;
+                    }
+                        .cajaequipos{
+                            height: 80px;
+                            width: 330px;
+                        }
+                            .equipo{
+                                display: flex;
+                                width: 330px;
+                                height: 40px;
+                            }
+                                .cajaequipo1{
+                                    display: flex;
+                                    width: 165px;
+                                    height: 40px; 
+                                    align-items: center;  
+                                    
+                                }
+                                    .bandera{
+                                        height: 15px;
+                                        width: 20px;
+                                        padding-right: 10px;
+                                    }
+                                .cajaequipo2{
+                                    display: flex;
+                                    justify-content: end;
+                                    width: 165px;
+                                    height: 40px;   
+                                }
+                                    .marcador{
+                                        display: flex;
+                                        align-items: center;
+                                        color: rebeccapurple;
+                                    }
+                                    .goles{
+                                        display: flex;
+                                        align-items: center;
+                                        color: rebeccapurple;
+                                        padding-left: 15px;
+                                    }
+
+                        .cajaresultados{
+                            display: flex;
+                            width: 70px;
+                            height: 80px;
+                            align-items: center;
+                        }
+                            .final{
+                                display: flex;
+                                background-color: rebeccapurple;
+                                color: white;
+                                height: 18px;
+                                width: 45px;
+                                justify-content: center;
+                                border-radius: 5px;
+                                align-items: center;
+                            }
+                                .heading2{
+                                    margin: 0px;
+                                }
+    .primerodrc{
+        display: flex;
+        height: 750px;
+        width: 75%;
+        background-image: url(img/richarlison.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        align-items: end;
+        cursor: pointer;
+
+    }
+        .textoprimerodrc{
+            display: flex;
+            height: 100px;
+            width: auto;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            flex-direction: column;
+        }
+            .caja1{
+                padding-bottom: 20px;
+                color: white;
+            }
+                .heading{
+                    color: white;
+                    margin: 0px;
+                }
+.segundo{
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+}
+    .segundoarriba{
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: end;
+        width: 1750px;
+    }
+        .boton3{
+            color: red;
+            background-color: blanchedalmond;
+            border: 0px;
+            cursor: pointer;
+        }
+        .boton3:hover{
+            color: brown;
+        }
+    .segundoabajo{
+        display: flex;
+        height: 750px;
+        width: 1750px;
+    }
+        .abajoizq{
+            display: flex;
+            height: 660px;
+            width: 850px;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+            .img1{
+                height: 500px;
+                width: 800px;
+                border-radius: 10px;
+            }
+                .quitmargin{
+                    margin: 0px;
+                }
+                .gray{
+                    color: gray;
+                }
+        .abajodrc{
+            display: flex;
+            height: 660px;
+            width: 900px;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+            .filabot{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                height: 45%;
+            }
+            .noti{
+                display: flex;
+                height: 45%;
+                flex-direction: column;
+            }
+                .img2{
+                    height: 220px;
+                    width: 420px;
+                    border-radius: 10px;
+                }
+                    .quitmargin1{
+                        margin-top: 10px;
+                    }

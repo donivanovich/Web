@@ -1,0 +1,123 @@
+
+body{
+    margin: 0px;
+}
+
+* { box-sizing: border-box;}
+
+.cajaMadre{
+    display: flex;
+    width: 100%;
+    height: 100vh;    
+}
+
+.cajaIzquierda{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+    background-color: red;
+}
+
+.cajaDerecha{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+}
+
+.cajaArriba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+    font-style: bold;
+}
+
+.cajaMedio{
+    display: flex;
+    flex-direction: column;
+    height: calc(75% - 10%); /* Ajustado para que no sobrepase el contenedor */
+    width: 100%;
+    overflow-y: auto; /* Activa el scroll si hay más elementos */
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.cajaAbajo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%; /* Ajustado para que no sobresalga */
+    height: 10%;
+    padding-left: 20px;
+    background-color: white; /* Asegura que no se solape con el fondo */
+    position: fixed;
+    bottom: 0;
+    right: 0; /* Para que no sobresalga del contenedor derecho */
+}
+
+.letra1{
+    margin-bottom: 5px;
+}
+
+.imagen{
+    width: 220px;
+}
+
+.labelContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+}
+
+.cargaItem{
+    width: 99%;
+    background-color: white;
+    border: solid 3px black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.cargaItem h3{
+    margin-bottom: 5px;
+    border-bottom: solid 2px black;
+    margin-bottom: 25px;
+}
+
+.cargaHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nombreCarga {
+    flex-grow: 1; /* Permite que el nombre ocupe el espacio central */
+    text-align: center;
+    margin: 0;
+}
+
+.btnEliminar {
+    background-color: rgb(126, 126, 126);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
