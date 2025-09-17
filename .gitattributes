@@ -1,8 +1,5 @@
-# Contar solo los .sql como SQL
-*.sql linguist-language=SQL
-
-# Ignorar lo demás
-*.md linguist-documentation
-*.txt linguist-documentation
-*.json linguist-vendored
-*.yml linguist-vendored
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.min.css linguist-language=CSS
+*.min.js linguist-language=JavaScript
