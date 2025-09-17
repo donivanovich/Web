@@ -1,0 +1,8 @@
+# Contar solo los .sql como SQL
+*.sql linguist-language=SQL
+
+# Ignorar lo demás
+*.md linguist-documentation
+*.txt linguist-documentation
+*.json linguist-vendored
+*.yml linguist-vendored
